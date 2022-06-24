@@ -1,3 +1,6 @@
 fetch("https://fakestoreapi.com/products")
-let porductsInCart = [];
-const parentElement = document.querySelector("#butItems")
+    .then(res => res.json())
+    .then(json => console.log(json))
+
+// let porductsInCart = [];
+// const parentElement = document.querySelector("#butItems")
