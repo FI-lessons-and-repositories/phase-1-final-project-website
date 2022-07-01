@@ -80,9 +80,14 @@ body {
     background-color: #fff;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     border-radius: 7px;
+    display: none;
 }
 
-#firstCart {
+#close {
+    display: none;
+}
+
+#eightCart {
     border: 1px solid red;
 }
 
